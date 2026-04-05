@@ -16,5 +16,6 @@ def auto_parts_save(sender, instance, **kwargs):
 
 @receiver(post_delete, sender=AutoParts)
 def auto_parts_delete(sender, instance, **kwargs):
+
     cache.delete_pattern('*product*')
 
