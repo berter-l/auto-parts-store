@@ -8,7 +8,7 @@ env = environ.Env()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = ''
+SECRET_KEY = 'yhgFwjRh5o-q0IWRaNPeuvCImROZ1OeNN2R08b6XqvIgY5wZCOD75zD0jCC0TtFEOXs'
 
 DEBUG = True
 
